@@ -1,5 +1,10 @@
 package Censista;
+
 public class Censista {
+    // 1) TDA. Debido al censo nacional se desea determinar los datos de un
+    // censista. Los datos del mismo son: dni,
+    // teléfono, provincia, ciudad, area (identificada por un código de área),
+    // totalViviendas, cantCensada
     private int dni, telefono, area, totalViviendas, cantCensadas;
     private String provincia, ciudad;
 

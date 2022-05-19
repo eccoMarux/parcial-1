@@ -9,7 +9,7 @@ public class testCensita {
         laura = new Censista(456, 564, 15, 20, 18, "Neuquen", "Neuquen");
         Censista[] personas = { pepe, ana, pablo, laura };
 
-        // Estructura improvisada para testear el modulo.
+        // Estructura improvisada para testear el modulo Ejercicio 2a.
         for (int i = 0; i < 4; i++) {
             if (censoMasSetenta(personas)[i] != null) {
                 System.out.println(censoMasSetenta(personas)[i].toString());
@@ -22,6 +22,10 @@ public class testCensita {
     }
 
     public static Censista[] censoMasSetenta(Censista[] arreglo) {
+        // Ejercicio 2a)
+        // Utilice un método para que dado un arreglo de Censistas genere un nuevo
+        // arreglo con aquellos censistas que censaron más del
+        // 70% del total de viviendas. Considere que el arreglo está completo.
         Censista[] arregloPersonas = new Censista[arreglo.length];
         int i, j = 0;
         double porcentaje;
